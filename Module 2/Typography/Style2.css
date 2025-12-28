@@ -1,0 +1,16 @@
+h1 {
+    text-decoration: wavy;
+    text-transform: inherit;
+}
+h2 {
+    text-shadow: 3cm;
+    text-wrap: inherit;
+}
+h3 {
+    text-rendering: optimizeLegibility;
+    text-align: unset;
+}
+h4 {
+    text-rendering: optimizeSpeed;
+    -webkit-text-stroke: 3cqh;
+}
