@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ✅ Moved meta tags to top (best practice) -->
+    <!-- ❌ You had duplicate charset meta tag -->
+    <!-- FIX: Keep only one charset declaration -->
+    <meta charset="UTF-8">
+
+    <!-- ✅ Viewport meta is correct (needed for responsiveness) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- ✅ Bootstrap CSS (This was correct in your code) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- ❌ You only included bootstrap.min.js -->
+    <!-- In Bootstrap 4, JS requires jQuery and Popper.js -->
+    <!-- FIX: Added required dependencies below -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<!-- ✅ Added container class for proper spacing -->
+<body class="container mt-4">
+
+    <h1>Abbreviations</h1>
+    <p>It is used to mark up an abbreviation or acronym.</p>
+
+    <!-- ❌ ORIGINAL MISTAKE:
+         <p>abbr title="codingal">cdgl</abbr>was founded in 2020</p>
+
+         PROBLEMS:
+         1. Missing "<" before abbr
+         2. No space before "was"
+    -->
+
+    <!-- ✅ FIXED VERSION -->
+    <p><abbr title="Codingal">cdgl</abbr> was founded in 2020</p>
+
+    <h1>Blockquotes</h1>
+    <p>It is used to present content from another source.</p>
+
+    <!-- ✅ This part was mostly correct -->
+    <blockquote class="blockquote">
+        <p>Codingal is on a mission to inspire all the school kids</p>
+        <footer class="blockquote-footer">From Codingal</footer>
+    </blockquote>
+
+    <h1>Multiple Code Lines</h1>
+    <p>For multiple lines of code use the pre-element</p>
+
+    <!-- ❌ You had spelling mistake: "misssion" -->
+    <!-- ✅ Fixed spelling -->
+    <pre>
+Codingal is on
+mission to
+inspire all
+the school 
+kids
+    </pre>
+
+    <h1>Keyboard Inputs</h1>
+    <p>To indicate keyboard input, use the kbd-element</p>
+
+    <!-- ✅ This was correct, only improved spacing -->
+    <p>Use <kbd>Ctrl + P</kbd> to open the print dialog box.</p>
+
+    <!-- ❌ You had an extra closing </div> without opening <div> -->
+    <!-- FIX: Removed unnecessary </div> -->
+
+    <!-- ✅ Input element was fine -->
+    <input type="color">
+
+</body>
+</html>
