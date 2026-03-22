@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boeing Aircraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eef2f7;
+            color: #333;
+        }
+        header {
+            background-color: #0039a6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0050d0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #0039a6;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Boeing Aircraft ✈️</h1>
+    <p>Discover one of the world’s largest aerospace companies</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#planes">Aircraft</a>
+    <a href="#history">History</a>
+    <a href="#facts">Fun Facts</a>
+</nav>
+
+<section id="about">
+    <h2>About Boeing</h2>
+    <div class="card">
+        <p>Boeing is a major American aerospace company that designs airplanes, satellites, and space technology used around the world.</p>
+    </div>
+</section>
+
+<section id="planes">
+    <h2>Popular Boeing Aircraft</h2>
+
+    <div class="card">
+        <h3>Boeing 737</h3>
+        <p>A very common short to medium-haul passenger jet used by airlines worldwide.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Jet_Airways_Boeing_737-800.jpg" alt="Boeing 737">
+    </div>
+
+    <div class="card">
+        <h3>Boeing 747</h3>
+        <p>Known as the “Queen of the Skies,” famous for its hump-backed upper deck.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Boeing_747-8_first_flight_Everett.jpg" alt="Boeing 747">
+    </div>
+
+    <div class="card">
+        <h3>Boeing 787 Dreamliner</h3>
+        <p>A modern, fuel-efficient aircraft with advanced materials and passenger comfort.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boeing_787_Dreamliner.jpg" alt="Boeing 787">
+    </div>
+
+</section>
+
+<section id="history">
+    <h2>History of Boeing</h2>
+    <div class="card">
+        <p>Boeing was founded in 1916 and has played a huge role in aviation history, from early airplanes to modern jets and space exploration.</p>
+    </div>
+</section>
+
+<section id="facts">
+    <h2>Fun Facts</h2>
+    <div class="card">
+        <ul>
+            <li>The Boeing 737 is one of the most produced airplanes ever.</li>
+            <li>The 747 revolutionized long-distance travel.</li>
+            <li>The 787 uses lightweight composite materials for better efficiency.</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Boeing Fan Site</p>
+</footer>
+
+</body>
+</html>
